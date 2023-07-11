@@ -30,10 +30,4 @@ const shuffleArray = () => {
     ElementName.innerText = value;
   });
 };
-const sortArray = () => {
-  array.sort((a, b) => a - b);
-  array.map((value, index) => {
-    let ElementName = document.getElementById(index + 1);
-    ElementName.innerText = index+1;
-  });
-};
+
