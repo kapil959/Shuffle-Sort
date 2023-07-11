@@ -34,6 +34,6 @@ const sortArray = () => {
   array.sort((a, b) => a - b);
   array.map((value, index) => {
     let ElementName = document.getElementById(index + 1);
-    ElementName.innerText = value;
+    ElementName.innerText = index+1;
   });
 };
